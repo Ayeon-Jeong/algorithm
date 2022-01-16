@@ -14,16 +14,6 @@ public class Solution {
             map.put(player, map.get(player) - 1);
         }
 
-        Iterator<Map.Entry<String, Integer>> iter = map.entrySet().iterator();
-
-        while(iter.hasNext()){
-            Map.Entry<String, Integer> entry = iter.next();
-            if(entry.getValue() != 0){
-                answer = entry.getKey();
-                break;
-            }
-        }
-
         return answer;
     }
 
