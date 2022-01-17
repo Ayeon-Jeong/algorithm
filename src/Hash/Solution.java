@@ -1,5 +1,6 @@
+package Hash;
+
 import java.util.*;
-import java.util.stream.Stream;
 
 public class Solution {
 
