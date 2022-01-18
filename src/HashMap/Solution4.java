@@ -26,6 +26,7 @@ public class Solution4 {
 //        for(Map.Entry<String, Integer> entry: entries){
 //            System.out.println(entry.getKey() + " " + entry.getValue());
 //        }
+
         Map<Integer, Integer> song = new HashMap<>();
         for(int i = 0; i < genres.length; i++){
             song.put(i, plays[i]);
@@ -36,19 +37,10 @@ public class Solution4 {
 
 
 
+
         System.out.println(entries);
 
-//        System.out.println(map);
-//        System.out.println(gen);
-//        System.out.println(play);
-//
-//        System.out.println(play.values().stream().filter(e -> e.equals("classic")).count());
 
-//        Stream<String> distinct = Arrays.stream(genres).distinct();
-//        distinct.forEach(s -> System.out.println(s));
-
-
-        // 노래가 많이 재생된 장르
     }
 
 }
