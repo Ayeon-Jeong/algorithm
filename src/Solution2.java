@@ -35,7 +35,13 @@ public class Solution2 {
         System.out.println(map.keySet().iterator().hasNext());
         System.out.println(map.keySet().iterator().next());
 
+        while(keys.hasNext()){
+            System.out.println(keys.next());
+        }
 
+        for(Object key: map.keySet()){
+            System.out.println("key: " + key + " value: " + map.get(key));
+        }
 
 
     }
