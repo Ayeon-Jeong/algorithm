@@ -20,6 +20,7 @@ public class maptest {
                 .sorted(Map.Entry.comparingByValue(Comparator.reverseOrder()))
                 .collect(Collectors.toList());
 
+
         Stream<Map.Entry<String, Integer>> sorted = genre.entrySet().stream()
                 .sorted(Map.Entry.comparingByValue(Comparator.reverseOrder()));
 
@@ -29,11 +30,9 @@ public class maptest {
             list.put(s, new ArrayList<>());
         }
 
-        list.get("pop").add(3);
-        list.get("classic").add(5);
-        System.out.println(list);
 
-        /
+
+
 
 //        System.out.println(sorted.toList().get(0));
 
