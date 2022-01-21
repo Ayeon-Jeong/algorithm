@@ -22,7 +22,6 @@ public class b2231 {
 
         for(int i = 1; i < N; i++){
             int a = new b2231().F(i);
-//            System.out.println(i + " " + a);
             if(a == N){
                 System.out.println(i);
                 return;
